@@ -198,6 +198,7 @@ function combinarNombres(nombre, apellido) {
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
   
+  
 }
 
 function obtenerSaludo(nombre) {
