@@ -80,8 +80,11 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-return str1.length === str2.length; }
- 
+  if ( str1.length  ===  str2.length )
+  return true; } 
+
+{ return false;
+} 
 
 
 function menosQueNoventa(num) {
@@ -168,7 +171,7 @@ function numeroRandom() {
   return Math.random ();
 }
 
-function esPositivo(numero) {
+function esPositivo(numero)
   //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
@@ -236,7 +239,7 @@ function deEuroAdolar(euro){
 }
 
 
-function esVocal(letra)
+function esVocal(letra){
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
   //Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
@@ -247,7 +250,7 @@ function esVocal(letra)
   { return "Dato incorrecto" }
   
  if (letra.legth > 1 ) 
- { return "Dato incorrecto" 
+  return "Dato incorrecto" 
 }
 
 
