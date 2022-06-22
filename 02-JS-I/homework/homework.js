@@ -80,13 +80,9 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1.length === str2.length)
-  return true; 
-}  { 
- return false;
-  }
+return str1.length === str2.length; }
  
-}
+
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
@@ -113,7 +109,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  return x % y ;
+  return x % y;
 }
 
 function esPar(num) {
@@ -240,7 +236,7 @@ function deEuroAdolar(euro){
 }
 
 
-function esVocal(letra){
+function esVocal(letra)
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
   //Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
